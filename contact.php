@@ -1,22 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-
 <body>
-  <!-- Incluir Navbar -->
+  <!-- Navbar Start -->
   <?php include 'navbar.html'; ?>
+  <!-- Navbar End -->
 
   <!-- Header -->
   <div class="container-fluid bg-secondary mb-5">
     <div
       class="d-flex flex-column align-items-center justify-content-center"
       style="min-height: 100px">
-      <h3 class="display-3 font-weight-bold text-white">Contacto</h3>
+      <h3 class="display-3 font-weight-bold text-white mt-3">Contacto</h3>
       <div class="d-inline-flex text-white">
-        <!-- <p class="m-0"><a class="text-white" href="./index.html">Inicio</a></p>
-          <p class="m-0 px-2">/</p>
-          <p class="m-0"><a class="text-white" href="./class.html">Admisiones</p>-->
       </div>
     </div>
   </div>
@@ -42,65 +38,6 @@
           </div>
         </div>
       </div>
-
-
-      <!-- <div class="row">
-          <div class="col-lg-7 mb-5">
-            <div class="contact-form">
-              <div id="success"></div>
-              <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                <div class="control-group">
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="name"
-                    placeholder="Your Name"
-                    required="required"
-                    data-validation-required-message="Please enter your name"
-                  />
-                  <p class="help-block text-danger"></p>
-                </div>
-                <div class="control-group">
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="email"
-                    placeholder="Your Email"
-                    required="required"
-                    data-validation-required-message="Please enter your email"
-                  />
-                  <p class="help-block text-danger"></p>
-                </div>
-                <div class="control-group">
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="subject"
-                    placeholder="Subject"
-                    required="required"
-                    data-validation-required-message="Please enter a subject"
-                  />
-                  <p class="help-block text-danger"></p>
-                </div>
-                <div class="control-group">
-                  <textarea
-                    class="form-control"
-                    rows="6"
-                    id="message"
-                    placeholder="Message"
-                    required="required"
-                    data-validation-required-message="Please enter your message"
-                  ></textarea>
-                  <p class="help-block text-danger"></p>
-                </div>
-                <div>
-                  <button
-                    class="btn btn-primary py-2 px-4"
-                    type="submit"
-                    id="sendMessageButton"
-                  >
-                    Send Message
-                  </button>-->
     </div>
     </form>
   </div>
