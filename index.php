@@ -11,7 +11,7 @@
     <div class="row align-items-center px-3">
       <div class="col-lg-6 text-center text-lg-left">
         <!--<h4 class="text-white mb-4 mt-5 mt-lg-0">Educación Adventista</h4>-->
-        <h1 class="display-3 font-weight-bold text-white">
+        <h1 class="display-3 font-weight-bold text-white mt-3">
           Educación Adventista
         </h1>
         <h3 class="text-white mb-4">
@@ -29,7 +29,7 @@
   <!-- Header End -->
 
   <!-- Facilities Start -->
-  <div class="container-fluid pt-5">
+  <div class="container-fluid">
     <div class="container pb-3">
       <div class="row">
         <div class="col-lg-4 col-md-6 pb-1">
@@ -97,10 +97,10 @@
   <!-- About Start -->
   <div class="container-fluid py-5">
     <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-3">
-          <h2>Vídeo Institucional</h2>
-          <video controls width="640" height="360">
+      <div class="align-items-center text-center">
+        <h2>Vídeo Institucional</h2>
+        <div class="video-container">
+          <video controls>
             <source src="video/prom.mp4" type="video/mp4">
             Tu navegador no soporta la reproducción de video.
           </video>
@@ -108,6 +108,7 @@
       </div>
     </div>
   </div>
+
   <!-- About End -->
 
   <!--temporal noticias-->
