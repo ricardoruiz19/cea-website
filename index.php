@@ -32,7 +32,7 @@
   <div class="container-fluid">
     <div class="container pb-3">
       <div class="row">
-        <div class="col-lg-4 col-md-6 pb-1">
+        <div class="col-lg-6 col-md-6 pb-1">
           <div
             class="d-flex bg-light shadow-sm border-top rounded mb-4"
             style="padding: 30px">
@@ -47,7 +47,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-5 pb-1">
+        <div class="col-lg-6 col-md-5 pb-1">
           <div
             class="d-flex bg-light shadow-sm border-top rounded mb-4"
             style="padding: 30px">
@@ -61,7 +61,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 pb-1">
+        <div class="col-lg-6 col-md-6 pb-1">
           <div
             class="d-flex bg-light shadow-sm border-top rounded mb-4"
             style="padding: 30px">
@@ -75,7 +75,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 pb-1">
+        <div class="col-lg-6 col-md-6 pb-1">
           <div
             class="d-flex bg-light shadow-sm border-top rounded mb-4"
             style="padding: 30px">
@@ -190,7 +190,7 @@
         <p class="section-title px-5">
           <span class="px-2">Nuestros Maestros</span>
         </p>
-        <h1 class="mb-4">Meet Our Teachers</h1>
+        <h1 class="mb-4">Conoce nuestro maestros</h1>
       </div>
       <div class="row">
         <div class="col-md-6 col-lg-3 text-center team mb-5">
