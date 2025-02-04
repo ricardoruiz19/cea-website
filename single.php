@@ -74,14 +74,14 @@
               class="nav-link dropdown-toggle"
               data-toggle="dropdown">PROYECTOS</a>
             <div class="dropdown-menu rounded-0 m-0">
-              <a href="seedbed.html" class="dropdown-item">Semillero</a>
+              <a href="seedbed.php" class="dropdown-item">Semillero</a>
               <a href="single.html" class="dropdown-item">Lúdico</a>
               <a href="single.html" class="dropdown-item">CEA Emprendedor</a>
               <a href="single.html" class="dropdown-item">CEA Valores</a>
               <a href="single.html" class="dropdown-item">CEA Verde</a>
             </div>
           </div>
-          <a href="finances.html" class="nav-item nav-link">FINANZAS</a>
+          <a href="finances.php" class="nav-item nav-link">FINANZAS</a>
           <!--  <div class="nav-item dropdown">
             <a
               href="#"
