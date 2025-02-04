@@ -18,8 +18,8 @@
           Educación basada en principios cristianos, con un enfoque en el
           desarrollo integral del ser humano.
         </h3>
-        <a href="about.html" class="btn btn-primary mt-1 py-3 px-5">Conócenos</a>
-        <a href="requirements.html" class="btn btn-primary mt-1 py-3 px-5">Admisiones</a>
+        <a href="about.php" class="btn btn-primary mt-1 py-3 px-5">Conócenos</a>
+        <a href="requirements.php" class="btn btn-primary mt-1 py-3 px-5">Admisiones</a>
       </div>
       <div class="col-lg-6 text-center text-lg-right">
         <img class="img-fluid mt-5" src="img/header.png" alt="" />

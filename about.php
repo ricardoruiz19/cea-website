@@ -199,7 +199,7 @@
       </p>
       <h1 class="mb-4">Conoce nuestra oferta educativa </h1>
       <p>
-        <a href="contact.html" class="btn btn-secondary px-4">Contáctanos</a>
+        <a href="contact.php" class="btn btn-secondary px-4">Contáctanos</a>
       </p>
     </div>
   </div>
