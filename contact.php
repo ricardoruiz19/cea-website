@@ -7,7 +7,7 @@
   <!-- Navbar End -->
 
   <!-- Header -->
-  <div class="container-fluid bg-secondary mb-5">
+  <div class="container-fluid bg-secondary mb-2">
     <div
       class="d-flex flex-column align-items-center justify-content-center"
       style="min-height: 100px">
@@ -22,7 +22,7 @@
   <div class="container-fluid pt-2 text-center">
     <div class="container">
       <div class="text-align: left pb-2">
-        <h1 class="mb-4">Déjanos tus datos y nos comunicaremos
+        <h1 class="mb-2">Déjanos tus datos y nos comunicaremos
           <br> contigo lo más pronto posible
         </h1>
       </div>

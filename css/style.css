@@ -10293,3 +10293,37 @@ a.text-dark:focus {
     aspect-ratio: 16 / 9; /* Mantiene la proporción */
   }
 }
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Apila los elementos en columna */
+    align-items: center; /* Centra los elementos */
+    text-align: center;
+  }
+
+  .navbar-brand {
+    display: flex;
+    flex-direction: column; /* Apila el logo y el texto */
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-right: 0rem;
+  }
+
+  .navbar-toggler {
+    margin-top: 10px; /* Espacio entre logo y botón de menú */
+  }
+
+  .navbar-collapse {
+    text-align: center;
+  }
+
+  .navbar-nav {
+    flex-direction: column; /* Apila los links en móviles */
+  }
+
+  .navbar-nav .nav-item {
+    margin-bottom: 5px; /* Espacio entre los elementos del menú */
+  }
+}

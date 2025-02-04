@@ -91,7 +91,7 @@
   <!-- Header End -->
 
   <!-- Team Start -->
-  <div class="container-fluid bg-secondary mb-5">
+  <div class="container-fluid bg-secondary mb-2">
     <div
       class="d-flex flex-column align-items-center justify-content-center"
       style="min-height: 100px">
@@ -106,7 +106,7 @@
   <!-- Header End -->
 
   <!-- team Start -->
-  <div class="container-fluid pt-5">
+  <div class="container-fluid pt-2">
     <div class="container">
       <div class="text-center pb-2">
         <p class="section-title px-5">
@@ -366,7 +366,7 @@
   <!-- Team End -->
 
   <!-- Testimonial Start -->
-  <div class="container-fluid py-5">
+  <div class="container-fluid py-2">
     <div class="container p-0">
       <div class="text-center pb-2">
         <p class="section-title px-5">
