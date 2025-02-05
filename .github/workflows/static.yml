@@ -1,0 +1,72 @@
+# Workflow for converting PHP to static HTML and deploying to GitHub Pages
+name: Convert PHP to Static HTML and Deploy to Pages
+
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["master"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  # Job to convert PHP to static HTML and deploy
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.0'  # Specify the PHP version you need
+
+      - name: Install wget
+        run: sudo apt-get update && sudo apt-get install -y wget
+
+      - name: Start PHP server
+        run: |
+          php -S localhost:8000 -t . > /dev/null 2>&1 &
+          echo "PHP server started on http://localhost:8000"
+
+      - name: Convert PHP to static HTML using wget
+        run: |
+          wget --mirror --convert-links --adjust-extension --page-requisites --no-parent http://localhost:8000
+          echo "PHP site converted to static HTML"
+
+      - name: Stop PHP server
+        run: pkill -f "php -S localhost:8000"
+
+      - name: Move static files to root directory
+        run: |
+          mv localhost:8000/* .
+          rm -rf localhost:8000
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Upload the entire repository (now containing static HTML files)
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
