@@ -14,11 +14,6 @@
       class="d-flex flex-column align-items-center justify-content-center"
       style="min-height: 100px">
       <h3 class="display-3 font-weight-bold text-white mt-3">Semillero</h3>
-      <div class="d-inline-flex text-white">
-        <!-- <p class="m-0"><a class="text-white" href="./index.php">Inicio</a></p>
-          <p class="m-0 px-2">/</p>
-          <p class="m-0"><a class="text-white" href="./class.html">Admisiones</p>-->
-      </div>
     </div>
   </div>
   <!-- Header End -->

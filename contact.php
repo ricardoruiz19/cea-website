@@ -41,9 +41,8 @@
         </div>
       </div>
     </div>
-    </form>
   </div>
-  </div>
+
   <div class="d-flex justify-content-center align-items-center">
     <div class="col-lg-4 mb-2 mt-2 text-center">
       <p>
@@ -52,47 +51,7 @@
         Teléfono: 572 5529457 | Móvil: 314 8714906 | A.A. 1269
         info@cea.edu.co | www.cea.edu.co
       </p>
-      <!-- <div class="d-flex">
-      <i
-        class="fa fa-map-marker-alt d-inline-flex align-items-center justify-content-center bg-primary text-secondary rounded-circle"
-        style="width: 45px; height: 45px"></i>
-      <div class="pl-3">
-        <h5>Address</h5>
-        <p>123 Street, New York, USA</p>
-      </div>
     </div>
-    <div class="d-flex">
-      <i
-        class="fa fa-envelope d-inline-flex align-items-center justify-content-center bg-primary text-secondary rounded-circle"
-        style="width: 45px; height: 45px"></i>
-      <div class="pl-3">
-        <h5>Email</h5>
-        <p>info@example.com</p>
-      </div>
-    </div>
-    <div class="d-flex">
-      <i
-        class="fa fa-phone-alt d-inline-flex align-items-center justify-content-center bg-primary text-secondary rounded-circle"
-        style="width: 45px; height: 45px"></i>
-      <div class="pl-3">
-        <h5>Teléfono</h5>
-        <p>+012 345 67890</p>
-      </div>
-    </div>
-    <div class="d-flex">
-      <i
-        class="far fa-clock d-inline-flex align-items-center justify-content-center bg-primary text-secondary rounded-circle"
-        style="width: 45px; height: 45px"></i>
-      <div class="pl-3">
-        <h5>Opening Hours</h5>
-        <strong>Sunday - Friday:</strong>
-        <p class="m-0">08:00 AM - 05:00 PM</p>
-      </div>
-    </div> -->
-    </div>
-  </div>
-  </div>
-  </div>
   </div>
 
   <!-- Incluir Footer -->

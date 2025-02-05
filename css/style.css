@@ -10280,17 +10280,24 @@ a.text-dark:focus {
   list-style-type: none;
 }
 
-.video-container video {
+.video-container {
   width: 100%;
-  height: auto;
+  max-height: 800px; /* Ajusta el ancho máximo si lo deseas */
+  margin: 0 auto;
+  position: relative;
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 500px;
   display: block;
+  border: none;
 }
 
 /* Ajustar el video en dispositivos móviles */
 @media (max-width: 768px) {
-  .video-container video {
-    max-width: 100%; /* Ocupa todo el ancho en pantallas pequeñas */
-    aspect-ratio: 16 / 9; /* Mantiene la proporción */
+  .video-container iframe {
+    height: 250px; /* Reducir la altura en pantallas pequeñas */
   }
 }
 

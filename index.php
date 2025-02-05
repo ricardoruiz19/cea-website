@@ -95,15 +95,17 @@
   <!-- Facilities Start -->
 
   <!-- About Start -->
-  <div class="container-fluid py-5">
+  <div class="container-fluid py-2">
     <div class="container">
       <div class="align-items-center text-center">
         <h2>Vídeo Institucional</h2>
         <div class="video-container">
-          <video controls>
-            <source src="video/prom.mp4" type="video/mp4">
-            Tu navegador no soporta la reproducción de video.
-          </video>
+          <iframe
+            src="https://drive.google.com/file/d/1iNAzH22UOLLEQfpR7IA3E0_YIvZNypCH/preview"
+            width="100%"
+            height="400"
+            allowfullscreen>
+          </iframe>
         </div>
       </div>
     </div>
@@ -112,7 +114,7 @@
   <!-- About End -->
 
   <!--temporal noticias-->
-  <div class="container-fluid pt-5">
+  <div class="container-fluid pt-2">
     <div class="container">
       <div class="text-center pb-2">
         <p class="section-title px-5">
