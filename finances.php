@@ -1,10 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<head>
+  <meta charset="utf-8" />
+  <title>Educación adventista</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta content="Free HTML Templates" name="keywords" />
+  <meta content="Free HTML Templates" name="description" />
+
+  <!-- Favicon -->
+  <link href="img/favicon.ico" rel="icon" />
+
+  <!-- Google Web Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Handlee&family=Nunito&display=swap"
+    rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+    rel="stylesheet" />
+
+  <!-- Flaticon Font -->
+  <link href="lib/flaticon/font/flaticon.css" rel="stylesheet" />
+
+  <!-- Libraries Stylesheet -->
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+  <!-- Customized Bootstrap Stylesheet -->
+  <link href="css/style.css" rel="stylesheet" />
+</head>
+
 <body>
-  <!-- Navbar Start -->
+
+  <!-- Navbar -->
   <?php include 'navbar.html'; ?>
-  <!-- Navbar End -->
 
   <!-- Header Start -->
   <div class="container-fluid bg-secondary mb-2">
@@ -22,8 +54,6 @@
   <div class="container-fluid">
     <div class="container">
       <div class="text-align: text-left">
-        <!-- <p class="section-title px-5"> -->
-        <span class="px-2"></span>
         </p>
 
         <style>
@@ -44,15 +74,8 @@
             <img width="100" height="100" src="https://www.cea.edu.co/wp-content/uploads/2020/08/pay-100x100.png"
               class="attachment-shop_thumbnail size-shop_thumbnail" alt="" decoding="async" loading="lazy">
           </div>
-          <!-- <div class="container-fluid py-3">
-          <div class="contenedor-imagen">
-            <img width="100" height="100" src="https://www.cea.edu.co/wp-content/uploads/2020/08/unnamed.jpg" 
-            class="attachment-full size-full" alt="" decoding="async" loading="lazy" >
-          </div> -->
-
           <div class="text-center pb-2">
             <h1 class="mb-4">Medios de pago</h1>
-
           </div>
         </div>
         <div class="text-center pb-2">
@@ -79,108 +102,15 @@
 
           <div class="card-body text-center">
             <h1 class="mb-2">Conoce nuestra oferta educativa</h1>
-            <p>
-
-            </p>
             <a href="contact.php" class="btn btn-secondary px-4">Contáctanos</a>
-
-            <!-- <div class="row">
-          <div class="col-12 text-center mb-2">
-            <ul class="list-inline mb-4" id="portfolio-flters">
-              <li class="btn btn-outline-primary m-1 active" data-filter="*">
-                All
-              </li>
-              <li class="btn btn-outline-primary m-1" data-filter=".first">
-                Playing
-              </li>
-              <li class="btn btn-outline-primary m-1" data-filter=".second">
-                Drawing
-              </li>
-              <li class="btn btn-outline-primary m-1" data-filter=".third">
-                Reading
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="row portfolio-container">
-          <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-            <div class="position-relative overflow-hidden mb-2">
-              <img class="img-fluid w-100" src="img/portfolio-1.jpg" alt="" />
-              <div
-                class="portfolio-btn bg-primary d-flex align-items-center justify-content-center"
-              >
-                <a href="img/portfolio-1.jpg" data-lightbox="portfolio">
-                  <i class="fa fa-plus text-white" style="font-size: 60px"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-            <div class="position-relative overflow-hidden mb-2">
-              <img class="img-fluid w-100" src="img/portfolio-2.jpg" alt="" />
-              <div
-                class="portfolio-btn bg-primary d-flex align-items-center justify-content-center"
-              >
-                <a href="img/portfolio-2.jpg" data-lightbox="portfolio">
-                  <i class="fa fa-plus text-white" style="font-size: 60px"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
-            <div class="position-relative overflow-hidden mb-2">
-              <img class="img-fluid w-100" src="img/portfolio-3.jpg" alt="" />
-              <div
-                class="portfolio-btn bg-primary d-flex align-items-center justify-content-center"
-              >
-                <a href="img/portfolio-3.jpg" data-lightbox="portfolio">
-                  <i class="fa fa-plus text-white" style="font-size: 60px"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-            <div class="position-relative overflow-hidden mb-2">
-              <img class="img-fluid w-100" src="img/portfolio-4.jpg" alt="" />
-              <div
-                class="portfolio-btn bg-primary d-flex align-items-center justify-content-center"
-              >
-                <a href="img/portfolio-4.jpg" data-lightbox="portfolio">
-                  <i class="fa fa-plus text-white" style="font-size: 60px"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-            <div class="position-relative overflow-hidden mb-2">
-              <img class="img-fluid w-100" src="img/portfolio-5.jpg" alt="" />
-              <div
-                class="portfolio-btn bg-primary d-flex align-items-center justify-content-center"
-              >
-                <a href="img/portfolio-5.jpg" data-lightbox="portfolio">
-                  <i class="fa fa-plus text-white" style="font-size: 60px"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
-            <div class="position-relative overflow-hidden mb-2">
-              <img class="img-fluid w-100" src="img/portfolio-6.jpg" alt="" />
-              <div
-                class="portfolio-btn bg-primary d-flex align-items-center justify-content-center"
-              >
-                <a href="img/portfolio-6.jpg" data-lightbox="portfolio">
-                  <i class="fa fa-plus text-white" style="font-size: 60px"></i>
-                </a>-->
           </div>
         </div>
       </div>
     </div>
   </div>
-  </div>
   <!-- Gallery End -->
 
-  <!-- Incluir Footer -->
+  <!-- Footer Start -->
   <?php include 'footer.html'; ?>
   <!-- Footer End -->
 
