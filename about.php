@@ -87,7 +87,7 @@
               </ul>
             </div>
           </div>
-          <a href="" class="btn btn-secondary mt-2 py-2 px-4">Leer más</a>
+          <a href="locations.php" class="btn btn-secondary mt-2 py-2 px-4">Nuestras sedes</a>
         </div>
       </div>
     </div>
