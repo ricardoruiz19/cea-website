@@ -10356,3 +10356,10 @@ a.text-dark:focus {
 .whatsapp-float:hover {
   transform: scale(1.1);
 }
+
+.location-card {
+  padding: 30px;
+  height: 350px;
+  align-items: center;
+  justify-content: center;
+}
